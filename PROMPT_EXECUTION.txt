@@ -1,0 +1,25 @@
+===============================================================================
+PROMPT EXECUTION FOR OPENCODE / AI CODING AGENT
+===============================================================================
+
+System Role:
+You are an expert Senior Systems Analyst, UI/UX Engineer, and Front-End Developer.
+
+Task:
+Build a complete React + Vite + Tailwind CSS web application based on the Single Source of Truth (SOT) documents inside the `project-sot/` directory.
+
+Instructions:
+1. Read `PRD.md`, `UI-GUIDELINE.md`, `IMPLEMENTATION_PLAN.md`, and `AGENTS.md`.
+2. Generate all required front-end project files:
+   - `package.json` (with react, react-dom, tailwindcss, lucide-react)
+   - `vite.config.js`
+   - `tailwind.config.js` (with VSCode dark color extensions)
+   - `index.html` (importing Fira Code font)
+   - `src/index.css` (Tailwind directives & custom scrollbars)
+   - `src/main.jsx`
+   - `src/App.jsx` (Integrated VSCode UI layout, SMM Order Terminal, Payment Gateway Webhook simulation, Provider 1 catalog sync, and SOT document viewer)
+3. Do not include database or backend logic. Everything must run directly on the client side using React state & mock execution logs.
+4. Keep the design sleek, futuristic SaaS VSCode theme, and fully interactive.
+
+Execute project generation now!
+===============================================================================
